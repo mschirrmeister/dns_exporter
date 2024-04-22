@@ -7,7 +7,7 @@
 
 # Note
 
-This for only exists to test out the **DNS-over-HTTP3 (DoH3)** support in the [dnspython](https://github.com/rthalley/dnspython) `main` branch.  
+This fork only exists to test out the **DNS-over-HTTP3 (DoH3)** support in the [dnspython](https://github.com/rthalley/dnspython) `main` branch.  
 Once a new **dnspython** version with **`DoH3/H3`** support is released, the upstream [dns_exporter](https://github.com/tykling/dns_exporter) will support **`DoH3/H3`** and this fork will go away. See https://github.com/tykling/dns_exporter/issues/112
 
 # dns_exporter
