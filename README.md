@@ -5,6 +5,11 @@
 [![PyPI version](https://badge.fury.io/py/dns-exporter.svg)](https://pypi.org/project/dns-exporter/)
 [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/tykling/dns_exporter)](https://hub.docker.com/r/tykling/dns_exporter)
 
+# Note
+
+This for only exists to test out the **DNS-over-HTTP3 (DoH3)** support in the [dnspython](https://github.com/rthalley/dnspython) `main` branch.  
+Once a new **dnspython** version with **`DoH3/H3`** support is released, the upstream [dns_exporter](https://github.com/tykling/dns_exporter) will support **`DoH3/H3`** and this fork will go away. See https://github.com/tykling/dns_exporter/issues/112
+
 # dns_exporter
 `dns_exporter` is a [multi-target](https://prometheus.io/docs/guides/multi-target-exporter/) [Prometheus](https://prometheus.io/) exporter with an exclusive focus on DNS monitoring. It is built on the excellent libraries [dnspython](https://github.com/rthalley/dnspython) and [the Prometheus Python client library](https://github.com/prometheus/client_python).
 
