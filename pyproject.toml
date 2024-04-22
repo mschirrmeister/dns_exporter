@@ -13,7 +13,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "dnspython[doh,dnssec,idna,doq] >= 2.5.0",
+    # "dnspython[doh,dnssec,idna,doq] >= 2.5.0",
+    "httpx >= 0.27.0",
+    "quic >= 0.0",
+    "aioquic >= 1.0.0",
+    "dnspython@git+https://github.com/rthalley/dnspython.git#egg=main",
     "PyYAML >= 6.0",
     "prometheus-client >= 0.15.0",
     "PySocks >= 1.7.1",
