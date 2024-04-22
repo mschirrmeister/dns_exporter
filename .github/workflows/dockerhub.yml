@@ -11,7 +11,7 @@ on:  # yamllint disable-line rule:truthy
       - 'v*'
 
 env:
-  REGISTRY_IMAGE: tykling/dns_exporter
+  REGISTRY_IMAGE: mschirrmeister/dns_exporter
 
 jobs:
   prepare:
@@ -42,7 +42,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=dns_exporter
             org.opencontainers.image.description=A Blackbox-style Prometheus exporter with a focus on DNS monitoring
-            org.opencontainers.image.vendor=tykling
+            org.opencontainers.image.vendor=mschirrmeister
 
       - name: Rename meta bake definition file
         run: |
